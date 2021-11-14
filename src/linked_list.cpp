@@ -62,13 +62,7 @@ namespace data_structures {
          */
         void list::push_back(int new_elem) {
             if (isEmpty()) {
-                std::cout << "3\n";
-                // first->succ() = std::make_shared<link>(new_elem);
-                if (first->succ() == nullptr) {
-                    std::cout << "nullptr\n";
-                }
                 first->succ() = std::make_shared<link>(new_elem);
-                std::cout << "4\n";
                 last = first->succ();
             }
             else

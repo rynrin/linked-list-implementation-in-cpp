@@ -27,9 +27,7 @@ int main() {
 
             if (data_structures::linked_list::isDigit(s)) {
                 x = std::stoi(s);
-                std::cout << "ok\n";
                 l.push_back(x);
-                std::cout << "ok\n";
             }
             else {
                 std::cout << "Wrong Input!\n";

@@ -17,7 +17,7 @@ enable_testing()
 
 add_executable(
   main_test
-  src/main_test.cpp
+  test/main_test.cpp
 )
 
 target_link_libraries(
@@ -25,5 +25,6 @@ target_link_libraries(
   gtest_main
 )
 
+include_directories(src)
 include(GoogleTest)
 gtest_discover_tests(main_test)

@@ -25,7 +25,7 @@ linked_list_implementation$ cmake -S . -B build
 -- The C compiler identification is GNU 10.2.1
 -- The CXX compiler identification is GNU 10.2.1
 ...
--- Build files have been written to: .../my_project/build
+-- Build files have been written to: .../linked_list_implementation/build
 
 linked_list_implementation$ cmake --build build
 Scanning dependencies of target gtest
@@ -33,7 +33,7 @@ Scanning dependencies of target gtest
 [100%] Built target gmock_main
 
 linked_list_implementation$ cd build && ctest
-Test project .../my_project/build
+Test project .../linked_list_implementation/build
     Start 1: MainTest.IsDigitFunctionTest
 1/1 Test #1: MainTest.IsDigitFunctionTest ........   Passed    0.00 sec
 

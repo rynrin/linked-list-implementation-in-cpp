@@ -1,8 +1,10 @@
 # Linked list
-    A simple linked list implementation in C++
 
-## Build and run program:
-```
+A simple linked list implementation in C++
+
+## Build and run program
+
+```shell
 linked_list_implementation$ make
 g++   -c -o obj/linked_list.o src/linked_list.cpp
 g++   -c -o obj/main.o src/main.cpp
@@ -19,8 +21,9 @@ linked_list_implementation$ ./bin/main
 Enter you choice : 
 ```
 
-## Build and run test:
-```
+## Build and run test
+
+```shell
 linked_list_implementation$ cmake -S . -B build
 -- The C compiler identification is GNU 10.2.1
 -- The CXX compiler identification is GNU 10.2.1
